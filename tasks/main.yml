@@ -1,0 +1,5 @@
+---
+- name: Install jq with yum
+  yum:
+    name: jq
+    state: present
