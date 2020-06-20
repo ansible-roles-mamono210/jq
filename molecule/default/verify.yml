@@ -5,8 +5,6 @@
   tasks:
     - name: Check whether jq is installed
       command: jq --version
-      environment:
-        TERM: xterm
       register: JQ_VERSION
       changed_when: false
 
@@ -15,7 +13,7 @@
       register: OS_VERSION
       changed_when: false
 
-    - name: Show jq version
+    - name: Make sure jq is installed
       debug:
         var: JQ_VERSION
 
