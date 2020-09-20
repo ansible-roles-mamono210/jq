@@ -1,0 +1,8 @@
+---
+roles:
+  - name: robertdebock.epel
+  - name: jq
+    src: https://github.com/ansible-roles-matsumura/jq.git
+
+collections:
+  - name: community.general
