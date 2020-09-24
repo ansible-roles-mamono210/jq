@@ -1,6 +1,0 @@
----
-- hosts: all
-  become: true
-  roles:
-    - robertdebock.epel
-    - jq
