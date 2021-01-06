@@ -1,5 +1,5 @@
 ---
 - name: Install jq
-  package:
+  ansible.builtin.package:
     name: jq
     state: present
