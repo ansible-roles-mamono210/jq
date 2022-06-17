@@ -18,7 +18,7 @@ None
 Dependencies
 ------------
 
-EPEL installed before running this role.
+[EPEL](https://docs.fedoraproject.org/en-US/epel/) installed before running this role.
 
 Example Playbook
 ----------------
@@ -28,7 +28,7 @@ Example Playbook
 - hosts: all
   become: true
   roles:
-    - robertdebock.epel
+    - geerlingguy.epel
     - jq
 ```
 
