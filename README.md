@@ -3,7 +3,7 @@
 Role Description
 =========
 
-Installs [jq](https://stedolan.github.io/jq/) for CentOS7/Stream8.
+Installs [jq](https://stedolan.github.io/jq/) for CentOS Stream.
 
 Requirements
 ------------
